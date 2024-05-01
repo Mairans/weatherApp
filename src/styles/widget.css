@@ -1,0 +1,46 @@
+#weaher-widget-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#weaher-widget {
+    margin: 48px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: regular;
+    color: #fff;
+}
+
+#weaher-widget > .temp > p {
+    font-size: 143px;
+    letter-spacing: -8%;
+    opacity: 1;
+}
+
+#weaher-widget > .meta > .location > p {
+    font-size: 60px;
+    letter-spacing: 0;
+}
+
+#weaher-widget > .meta > .date > p {
+    font-size: 18px;
+    letter-spacing: 0;
+}
+
+#weaher-widget > .icon {
+    font-size: 60px;
+}
+
+#get-weather-by-loc-feature {
+    cursor: pointer;
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255, .8);
+}
+
+#get-weather-by-loc-feature:hover {
+    text-decoration: underline;
+}
